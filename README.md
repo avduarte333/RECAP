@@ -7,11 +7,11 @@ This is the official repository for the paper RECAP: Reproducing Copyrighted Dat
 
 RECAP is a method for extracting verbatim memorized content from large language models (LLMs). Building on dynamic soft prompts, RECAP introduces a feedback-driven refinement loop, in which an initial extraction is assessed by a second model that compares the output against a reference passage to identify discrepancies. These are distilled into high-level correction hints, which are then fed back into the target model to steer subsequent generations towards greater fidelity. RECAP also integrates a jailbreaking module to overcome model alignment refusals.
 <br>
-We release our code in order to apply both RECAP as other baselines, such as Prefix-Probing (xxx) and Dynamic Soft Prompting (yyy).
+We release our code in order to apply both RECAP as other baselines, such as [Prefix-Probing](https://arxiv.org/abs/2310.13771) and [Dynamic Soft Prompting](https://aclanthology.org/2024.emnlp-main.546/).
 
 
 <p align="center">
-  <img src="./Images/framework_overview.png" width="80%" alt="Framework Overview">
+  <img src="./pipeline_overview.png" width="80%" alt="Framework Overview">
 </p>
 
 ## 🚀 Installation
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## 🗄️ EchoTrace Structure
 
-Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books. For access to these materials, please refer to [xxx] or visit our HuggingFace repository.
+Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books. For access to these materials, please refer to [./EchoTrace-Paper-Results] or visit our HuggingFace repository.
 
 ```json
 {
@@ -76,7 +76,7 @@ The main way to run our RECAP extraction on a single book would be to fill the a
 from extraction_utils import BookExtractionTask
 
 task = BookExtractionTask(
-    json_file_path=".../Pride_and_Prejudice_-_Jane_Austen_summary_gemini-2.5-pro-exp-03-25.json",
+    json_file_path="./<...>/A_Christmas_Carol_-_Charles_Dickens_summary_gemini-2.5-pro-exp-03-25.json",
     model_name="deepseek-chat",                              # Target model for extractions
     evaluation_model_name="gemini-2.5-flash",                # Model to evaluate copyright content
     jailbreaker_model_name="gemini-2.5-flash",               # Model for jailbreak prompt generation  
@@ -96,7 +96,7 @@ Once we have obtained the predictions for the target book, the next step is to e
 from extraction_utils import MetricsCalculationTask
 
 metrics_task = MetricsCalculationTask(
-    extraction_json_path="./Results/Pride_and_Prejudice_-_Jane_Austen/Extractions/Pride_and_Prejudice_-_Jane_Austen_extraction_deepseek-chat_feedback_gpt-4.1.json",
+    extraction_json_path="./Results/A_Christmas_Carol_-_Charles_Dickens/Extractions/A_Christmas_Carol_-_Charles_Dickens_extraction_deepseek-chat_feedback_gpt-4.1.json",
     min_tokens=40,                    # Minimum tokens for contiguous spans
     max_mismatch_tokens=5             # Maximum mismatch tokens for span merging
 )
@@ -116,7 +116,7 @@ Don't forget to set the API keys in a `.env` file in the project root:
 Results are organized as follows:
 ```
 Results/
-└── BookName/              # e.g., "Pride_and_Prejudice_-_Jane_Austen"
+└── BookName/             
     ├── Extractions/
     │   └── BookName_extraction_ModelName_feedback_FeedbackModel.json
     └── Metrics/
