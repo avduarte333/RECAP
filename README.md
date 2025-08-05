@@ -38,7 +38,9 @@ pip install -r requirements.txt
 
 ## 🗄️ EchoTrace Structure
 
-Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books. For access to these materials, please refer to [Public_Domain](./Public_Domain) or visit our [HuggingFace](https://huggingface.co/datasets/RECAP-Project/EchoTrace) repository.
+Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books.<br>
+For access to these materials, please refer to [Public_Domain](./Public_Domain) or visit our [HuggingFace](https://huggingface.co/datasets/RECAP-Project/EchoTrace) repository.<br>
+Our data will have a similar structure as this:
 
 ```json
 {
@@ -76,11 +78,11 @@ The main way to run our RECAP extraction on a single book would be to fill the a
 from extraction_utils import BookExtractionTask
 
 task = BookExtractionTask(
-    json_file_path="./<...>/A_Christmas_Carol_-_Charles_Dickens_summary_gemini-2.5-pro-exp-03-25.json",
+    json_file_path="./data/A_Christmas_Carol_-_Charles_Dickens_summary_gemini-2.5-pro-exp-03-25.json",
     model_name="deepseek-chat",                              # Target model for extractions
-    evaluation_model_name="gemini-2.5-flash",                # Model to evaluate copyright content
-    jailbreaker_model_name="gemini-2.5-flash",               # Model for jailbreak prompt generation  
-    feedback_model_name="gpt-4.1",                           # Model for feedback loops
+    evaluation_model_name="gemini-2.5-flash",                # Model to evaluate if extraction is valid
+    jailbreaker_model_name="gemini-2.5-flash",               # Model for jailbreak prompt generation  (not needed if doing the Narrative Tool Injection)
+    feedback_model_name="gpt-4.1",                           # Feedback-Agent model.
     results_base_folder="./Results"                          # Base folder to save results
 )
 
