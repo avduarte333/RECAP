@@ -76,7 +76,7 @@ The main way to run our RECAP extraction on a single book would be to fill the a
 from extraction_utils import BookExtractionTask
 
 task = BookExtractionTask(
-    json_file_path="./Pride_and_Prejudice_-_Jane_Austen/Pride_and_Prejudice_-_Jane_Austen_summary_gemini-2.5-pro-exp-03-25.json",
+    json_file_path=".../Pride_and_Prejudice_-_Jane_Austen_summary_gemini-2.5-pro-exp-03-25.json",
     model_name="deepseek-chat",                              # Target model for extractions
     evaluation_model_name="gemini-2.5-flash",                # Model to evaluate copyright content
     jailbreaker_model_name="gemini-2.5-flash",               # Model for jailbreak prompt generation  
