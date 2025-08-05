@@ -1,0 +1,2 @@
+# Ignore macOS .DS_Store files everywhere in the repository
+.DS_Store
