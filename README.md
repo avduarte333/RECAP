@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## 🗄️ EchoTrace Structure
 
-Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books. For access to these materials, please refer to [./EchoTrace-Paper-Results] or visit our HuggingFace repository.
+Our verbatim extraction script requires books from the EchoTrace dataset to be provided in a specific JSON format. Due to copyright restrictions, we are only able to release the public domain books. For access to these materials, please refer to [Public_Domain](./Public_Domain) or visit our [HuggingFace](https://huggingface.co/datasets/RECAP-Project/EchoTrace) repository.
 
 ```json
 {
