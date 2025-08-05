@@ -20,8 +20,8 @@ In order to run RECAP, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/xxxxx
-cd xxxxx
+git clone https://github.com/avduarte333/RECAP.git
+cd RECAP
 
 # Create a conda environment
 conda create -n RECAP_env python=3.10 pip -y
