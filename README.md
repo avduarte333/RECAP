@@ -1,4 +1,4 @@
-# Book Content Extraction and Analysis Framework
+# RECAP 🔁
 
 This is the official repository for the paper RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline.
 
