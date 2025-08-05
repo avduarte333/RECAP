@@ -5,8 +5,9 @@ This is the official repository for the paper RECAP: Reproducing Copyrighted Dat
 
 ## Overview
 
-RECAP is a method for extracting verbatim memorized content from large language models (LLMs). Building on dynamic soft prompts, RECAP introduces a feedback-driven refinement loop, in which an initial extraction is assessed by a second model that compares the output against a reference passage to identify discrepancies. These are distilled into high-level correction hints, which are then fed back into the target model to steer subsequent generations towards greater fidelity. RECAP also integrates a jailbreaking module to overcome model alignment refusals.
-<br>
+RECAP is a method for extracting verbatim memorized content from large language models (LLMs).<br>
+Building on dynamic soft prompts, RECAP introduces a feedback-driven refinement loop, in which an initial extraction is assessed by a second model that compares the output against a reference passage to identify discrepancies.<br>
+These are distilled into high-level correction hints, which are then fed back into the target model to steer subsequent generations towards greater fidelity. RECAP also integrates a jailbreaking module to overcome model alignment refusals.<br>
 We release our code in order to apply both RECAP as other baselines, such as [Prefix-Probing](https://arxiv.org/abs/2310.13771) and [Dynamic Soft Prompting](https://aclanthology.org/2024.emnlp-main.546/).
 
 
