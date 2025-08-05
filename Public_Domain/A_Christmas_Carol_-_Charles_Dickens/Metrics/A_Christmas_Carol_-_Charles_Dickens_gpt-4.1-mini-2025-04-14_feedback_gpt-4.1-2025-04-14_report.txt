@@ -1,0 +1,70 @@
+Metrics Report for A_Christmas_Carol_-_Charles_Dickens (gpt-4.1-mini-2025-04-14) with feedback gpt-4.1-2025-04-14
+================================================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1769
+- simple_agent_extraction: 0.2499
+- simple_agent_jailbreak: 0.2649
+- simple_agent_extraction_refined_first: 0.2786
+- simple_agent_extraction_refined_best_no_jail: 0.2597
+- simple_agent_extraction_refined_best: 0.2807
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 27 merged spans, covering 51 passages
+  * Avg span length: 91.19 tokens
+  * Max span length: 373 tokens
+- simple_agent_extraction:
+  * 51 merged spans, covering 86 passages
+  * Avg span length: 83.02 tokens
+  * Max span length: 207 tokens
+- simple_agent_jailbreak:
+  * 51 merged spans, covering 86 passages
+  * Avg span length: 83.02 tokens
+  * Max span length: 207 tokens
+- simple_agent_extraction_refined_first:
+  * 52 merged spans, covering 87 passages
+  * Avg span length: 82.31 tokens
+  * Max span length: 207 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 52 merged spans, covering 87 passages
+  * Avg span length: 82.31 tokens
+  * Max span length: 207 tokens
+- simple_agent_extraction_refined_best:
+  * 52 merged spans, covering 87 passages
+  * Avg span length: 82.31 tokens
+  * Max span length: 207 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (207 tokens) Chapter 2, Event 1
+   "a strange figurelike a child yet not so like a child as like an old man viewed through some supernatural medium which gave him the appearance of having receded from the view and being diminished to a child ’ s proportions its hair which hung about its neck and down its back was white as if with age and yet the face had not a wrinkle in it and the tenderest bloom was on the skin the arms were very long and muscular the hands the same as if its hold were of uncommon strength its legs and feet most delicately formed were like those upper members bare it wore a tunic of the purest white and round its waist was bound a lustrous belt the sheen of which was beautiful it held a branch of fresh green holly in its hand and in singular contradiction of that wintry emblem had its dress trimmed with summer flowers but the strangest thing about it was that from the crown of its head there sprung a bright clear jet of light by which all this was visible and which was doubtless the occasion of its using in its duller moments a great extinguisher for a cap which it now"
+
+2. (207 tokens) Chapter 5, Event 9
+   "he did it all and infinitely more and to tiny tim who did not die he was a second father he became as good a friend as good a master and as good a man as the good old city knew or any other good old city town or borough in the good old world some people laughed to see the alteration in him but he let them laugh and little heeded them for he was wise enough to know that nothing ever happened on this globe for good at which some people did not have their fill of laughter in the outset and knowing that such as these would be blind anyway he thought it quite as well that they should wrinkle up their eyes in grins as have the malady in less attractive forms his own heart laughed and that was quite enough for him he had no further intercourse with spirits but lived upon the total abstinence principle ever afterwards and it was always said of him that he knew how to keep christmas well if any man alive possessed the knowledge may that be truly said of us and all of us and so as tiny tim observed god bless us every one"
+
+3. (206 tokens) Chapter 1, Event 0
+   "name there it stood years afterwards above the warehouse door scrooge and marley the firm was known as scrooge and marley sometimes people new to the business called scrooge scrooge and sometimes marley but he answered to both names it was all the same to him oh but he was a tightfisted hand at the grindstone scrooge a squeezing wrenching grasping scraping clutching covetous old sinner hard and sharp as flint from which no steel had ever struck out generous fire secret and selfcontained and solitary as an oyster the cold within him froze his old features nipped his pointed nose shrivelled his cheek stiffened his gait made his eyes red his thin lips blue and spoke out shrewdly in his grating voice a frosty rime was on his head and on his eyebrows and his wiry chin he carried his own low temperature always about with him he iced his office in the dogdays and didn ’ t thaw it one degree at christmas external heat and cold had little influence on scrooge no warmth could warm no wintry weather chill him no wind that blew was bitterer than he no falling snow was more intent upon its purpose no pelting rain less open to"
+
+4. (171 tokens) Chapter 2, Event 1
+   "proportions its hair which hung about its neck and down its back was white as if with age and yet the face had not a wrinkle in it and the tenderest bloom was on the skin the arms were very long and muscular the hands the same as if its hold were of uncommon strength its legs and feet most delicately formed were like those upper members bare it wore a tunic of the purest white and round its waist was bound a lustrous belt the sheen of which was beautiful it held a branch of fresh green holly in its hand and in singular contradiction of that wintry emblem had its dress trimmed with summer flowers but the strangest thing about it was that from the crown of its head there sprung a bright clear jet of light by which all this was visible and which was doubtless the occasion of its using in its duller moments a great extinguisher for a cap which it now held under its arm"
+
+5. (163 tokens) Chapter 1, Event 0
+   "weak mind scrooge never painted out old marley ’ s name there it stood years afterwards above the warehouse door scrooge and marley the firm was known as scrooge and marley sometimes people new to the business called scrooge scrooge and sometimes marley but he answered to both names it was all the same to him oh but he was a tightfisted hand at the grindstone scrooge a squeezing wrenching grasping scraping clutching covetous old sinner hard and sharp as flint from which no steel had ever struck out generous fire secret and selfcontained and solitary as an oyster the cold within him froze his old features nipped his pointed nose shrivelled his cheek stiffened his gait made his eyes red his thin lips blue and spoke out shrewdly in his grating voice a frosty rime was on his head and on his eyebrows and his wiry chin he carried his own low temperature always about with him he iced his office in"
+
+6. (163 tokens) Chapter 1, Event 6
+   "marley in his pigtail usual waistcoat tights and boots the tassels on the latter bristling like his pigtail and his coatskirts and the hair upon his head the chain he drew was clasped about his middle it was long and wound about him like a tail and it was made ( for scrooge observed it closely ) of cashboxes keys padlocks ledgers deeds and heavy purses wrought in steel his body was transparent so that scrooge observing him and looking through his waistcoat could see the two buttons on his coat behind scrooge had often heard it said that marley had no bowels but he had never believed it until now no nor did he believe it even now though he looked the phantom through and through and saw it standing before him though he felt the chilling influence of its deathcold eyes and marked the very texture of the folded kerchief bound about its head and chin which wrapper he had not"
+
+7. (138 tokens) Chapter 1, Event 2
+   "i am sure i have always thought of christmas time when it has come roundapart from the veneration due to its sacred name and origin if anything belonging to it can be apart from thatas a good time a kind forgiving charitable pleasant time the only time i know of in the long calendar of the year when men and women seem by one consent to open their shutup hearts freely and to think of people below them as if they really were fellowpassengers to the grave and not another race of creatures bound on other journeys and therefore uncle though it has never put a scrap of gold or silver in my pocket i believe that it has done me good and will do me good and i say god bless it ” the clerk in the"
+
+8. (114 tokens) Chapter 1, Event 2
+   "anything belonging to it can be apart from thatas a good time a kind forgiving charitable pleasant time the only time i know of in the long calendar of the year when men and women seem by one consent to open their shutup hearts freely and to think of people below them as if they really were fellowpassengers to the grave and not another race of creatures bound on other journeys and therefore uncle though it has never put a scrap of gold or silver in my pocket i believe that it has done me good and will do me good and i say god bless it ” the clerk in the tank involuntarily"
+
+9. (107 tokens) Chapter 1, Event 0
+   "know how many years scrooge was his sole executor his sole administrator his sole assign his sole residuary legatee his sole friend and sole mourner and even scrooge was not so dreadfully cut up by the sad event but that he was an excellent man of business on the very day of the funeral and solemnised it with an undoubted bargain the mention of marley ’ s funeral brings me back to the point i started from there is no doubt that marley was dead this must be distinctly understood or nothing wonderful can come of the story i am going to relate if we were not"
+
+10. (106 tokens) Chapter 1, Event 2
+   "a good time a kind forgiving charitable pleasant time the only time i know of in the long calendar of the year when men and women seem by one consent to open their shutup hearts freely and to think of people below them as if they really were fellowpassengers to the grave and not another race of creatures bound on other journeys and therefore uncle though it has never put a scrap of gold or silver in my pocket i believe that it has done me good and will do me good and i say god bless it ” the clerk in the tank involuntarily applauded"
+

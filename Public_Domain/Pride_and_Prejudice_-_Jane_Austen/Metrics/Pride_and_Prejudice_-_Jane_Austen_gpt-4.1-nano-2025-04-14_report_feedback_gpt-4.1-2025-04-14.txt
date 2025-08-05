@@ -1,0 +1,43 @@
+Metrics Report for Pride_and_Prejudice_-_Jane_Austen (gpt-4.1-nano-2025-04-14)
+============================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1288
+- simple_agent_extraction: 0.1746
+- simple_agent_jailbreak: 0.1977
+- simple_agent_extraction_refined_first: 0.2192
+- simple_agent_extraction_refined_best_no_jail: 0.1963
+- simple_agent_extraction_refined_best: 0.2214
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_extraction:
+  * 1 merged spans, covering 2 passages
+  * Avg span length: 86.00 tokens
+  * Max span length: 86 tokens
+- simple_agent_jailbreak:
+  * 1 merged spans, covering 2 passages
+  * Avg span length: 86.00 tokens
+  * Max span length: 86 tokens
+- simple_agent_extraction_refined_first:
+  * 1 merged spans, covering 2 passages
+  * Avg span length: 86.00 tokens
+  * Max span length: 86 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 1 merged spans, covering 2 passages
+  * Avg span length: 86.00 tokens
+  * Max span length: 86 tokens
+- simple_agent_extraction_refined_best:
+  * 1 merged spans, covering 2 passages
+  * Avg span length: 86.00 tokens
+  * Max span length: 86 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (86 tokens) Chapter 16, Event 3
+   "” elizabeth ’ s spirits were so high on the occasion that though she did not often speak unnecessarily to mr collins she could not help asking him whether he intended to accept mr bingley ’ s invitation and if he did whether he would think it proper to join in the evening ’ s amusement and she was rather surprised to find that he entertained no scruple whatever on that head and was very far from dreading a rebuke either from the archbishop or lady"
+

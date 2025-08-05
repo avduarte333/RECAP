@@ -1,0 +1,46 @@
+Metrics Report for A_Christmas_Carol_-_Charles_Dickens (gpt-4.1-nano-2025-04-14) with feedback gpt-4.1-2025-04-14
+================================================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1228
+- simple_agent_extraction: 0.1468
+- simple_agent_jailbreak: 0.1586
+- simple_agent_extraction_refined_first: 0.1818
+- simple_agent_extraction_refined_best_no_jail: 0.1683
+- simple_agent_extraction_refined_best: 0.1819
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_extraction:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_jailbreak:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_extraction_refined_first:
+  * 2 merged spans, covering 2 passages
+  * Avg span length: 43.00 tokens
+  * Max span length: 44 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 2 merged spans, covering 2 passages
+  * Avg span length: 43.00 tokens
+  * Max span length: 44 tokens
+- simple_agent_extraction_refined_best:
+  * 2 merged spans, covering 2 passages
+  * Avg span length: 43.00 tokens
+  * Max span length: 44 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (44 tokens) Chapter 4, Event 7
+   "i will honour christmas in my heart and try to keep it all the year i will live in the past the present and the future the spirits of all three shall strive within me i will not shut out the lessons that they"
+
+2. (42 tokens) Chapter 4, Event 7
+   "christmas in my heart and try to keep it all the year i will live in the past the present and the future the spirits of all three shall strive within me i will not shut out the lessons that they teach"
+

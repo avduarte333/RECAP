@@ -1,0 +1,67 @@
+Metrics Report for The_Adventures_of_Sherlock_Holmes_-_Arthur_Conan_Doyle (gpt-4.1-mini-2025-04-14)
+============================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1212
+- simple_agent_extraction: 0.1816
+- simple_agent_jailbreak: 0.1934
+- simple_agent_extraction_refined_first: 0.2051
+- simple_agent_extraction_refined_best_no_jail: 0.1929
+- simple_agent_extraction_refined_best: 0.2073
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 3 merged spans, covering 11 passages
+  * Avg span length: 170.33 tokens
+  * Max span length: 215 tokens
+- simple_agent_extraction:
+  * 9 merged spans, covering 29 passages
+  * Avg span length: 142.56 tokens
+  * Max span length: 212 tokens
+- simple_agent_jailbreak:
+  * 9 merged spans, covering 29 passages
+  * Avg span length: 142.56 tokens
+  * Max span length: 212 tokens
+- simple_agent_extraction_refined_first:
+  * 9 merged spans, covering 29 passages
+  * Avg span length: 142.56 tokens
+  * Max span length: 212 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 9 merged spans, covering 29 passages
+  * Avg span length: 142.56 tokens
+  * Max span length: 212 tokens
+- simple_agent_extraction_refined_best:
+  * 9 merged spans, covering 29 passages
+  * Avg span length: 142.56 tokens
+  * Max span length: 212 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (212 tokens) Chapter 0, Event 1
+   "my marriage had drifted us away from each other my own complete happiness and the homecentred interests which rise up around the man who first finds himself master of his own establishment were sufficient to absorb all my attention while holmes who loathed every form of society with his whole bohemian soul remained in our lodgings in baker street buried among his old books and alternating from week to week between cocaine and ambition the drowsiness of the drug and the fierce energy of his own keen nature he was still as ever deeply attracted by the study of crime and occupied his immense faculties and extraordinary powers of observation in following out those clues and clearing up those mysteries which had been abandoned as hopeless by the official police from time to time i heard some vague account of his doings of his summons to odessa in the case of the trepoff murder of his clearing up of the singular tragedy of the atkinson brothers at trincomalee and finally of the mission which he had accomplished so delicately and successfully for the reigning family of holland beyond these signs of his activity however which i merely shared with all the readers of the daily press i knew little of my former"
+
+2. (208 tokens) Chapter 0, Event 1
+   "away from each other my own complete happiness and the homecentred interests which rise up around the man who first finds himself master of his own establishment were sufficient to absorb all my attention while holmes who loathed every form of society with his whole bohemian soul remained in our lodgings in baker street buried among his old books and alternating from week to week between cocaine and ambition the drowsiness of the drug and the fierce energy of his own keen nature he was still as ever deeply attracted by the study of crime and occupied his immense faculties and extraordinary powers of observation in following out those clues and clearing up those mysteries which had been abandoned as hopeless by the official police from time to time i heard some vague account of his doings of his summons to odessa in the case of the trepoff murder of his clearing up of the singular tragedy of the atkinson brothers at trincomalee and finally of the mission which he had accomplished so delicately and successfully for the reigning family of holland beyond these signs of his activity however which i merely shared with all the readers of the daily press i knew little of my former friend"
+
+3. (206 tokens) Chapter 0, Event 1
+   "my own complete happiness and the homecentred interests which rise up around the man who first finds himself master of his own establishment were sufficient to absorb all my attention while holmes who loathed every form of society with his whole bohemian soul remained in our lodgings in baker street buried among his old books and alternating from week to week between cocaine and ambition the drowsiness of the drug and the fierce energy of his own keen nature he was still as ever deeply attracted by the study of crime and occupied his immense faculties and extraordinary powers of observation in following out those clues and clearing up those mysteries which had been abandoned as hopeless by the official police from time to time i heard some vague account of his doings of his summons to odessa in the case of the trepoff murder of his clearing up of the singular tragedy of the atkinson brothers at trincomalee and finally of the mission which he had accomplished so delicately and successfully for the reigning family of holland beyond these signs of his activity however which i merely shared with all the readers of the daily press i knew little of my former friend and companion"
+
+4. (198 tokens) Chapter 0, Event 0
+   "i have seldom heard him mention her under any other name in his eyes she eclipses and predominates the whole of her sex it was not that he felt any emotion akin to love for irene adler all emotions and that one particularly were abhorrent to his cold precise but admirably balanced mind he was i take it the most perfect reasoning and observing machine that the world has seen but as a lover he would have placed himself in a false position he never spoke of the softer passions save with a gibe and a sneer they were admirable things for the observerexcellent for drawing the veil from men ’ s motives and actions but for the trained reasoner to admit such intrusions into his own delicate and finely adjusted temperament was to introduce a distracting factor which might throw a doubt upon all his mental results grit in a sensitive instrument or a crack in one of his own highpower lenses would not be more disturbing than a strong emotion in a nature such as his and yet there was but one woman to him and that woman was the late irene adler of dubious and"
+
+5. (153 tokens) Chapter 0, Event 2
+   "as i passed the wellremembered door which must always be associated in my mind with my wooing and with the dark incidents of the study in scarlet i was seized with a keen desire to see holmes again and to know how he was employing his extraordinary powers his rooms were brilliantly lit and even as i looked up i saw his tall spare figure pass twice in a dark silhouette against the blind he was pacing the room swiftly eagerly with his head sunk upon his chest and his hands clasped behind him to me who knew his every mood and habit his attitude and manner told their own story he was at work again he had risen out of his drugcreated dreams and was hot upon the scent of some new problem i rang the bell and was shown up to the chamber which had formerly been in part my own"
+
+6. (99 tokens) Chapter 0, Event 4
+   "“ when i hear you give your reasons ” i remarked “ the thing always appears to me to be so ridiculously simple that i could easily do it myself though at each successive instance of your reasoning i am baffled until you explain your process and yet i believe that my eyes are as good as yours ” “ quite so ” he answered lighting a cigarette and throwing himself down into an armchair “ you see but you do not observe the distinction is clear for example you have frequently seen the steps which lead up from"
+
+7. (83 tokens) Chapter 4, Event 0
+   "we would not dare to conceive the things which are really mere commonplaces of existence if we could fly out of that window hand in hand hover over this great city gently remove the roofs and peep in at the queer things which are going on the strange coincidences the plannings the crosspurposes the wonderful chains of events working through generations and leading to the most outré results it would make all fiction with its conventionalities and foreseen conclusions most stale and unprofitable"
+
+8. (81 tokens) Chapter 0, Event 3
+   "it seldom was but he was glad i think to see me with hardly a word spoken but with a kindly eye he waved me to an armchair threw across his case of cigars and indicated a spirit case and a gasogene in the corner then he stood before the fire and looked me over in his singular introspective fashion “ wedlock suits you ” he remarked “ i think watson that you have put on seven and a half pounds"
+
+9. (43 tokens) Chapter 5, Event 2
+   "here ” “ circumstantial evidence is a very tricky thing ” answered holmes thoughtfully “ it may seem to point very straight to one thing but if you shift your own point of view a little you may find it pointing in an"
+

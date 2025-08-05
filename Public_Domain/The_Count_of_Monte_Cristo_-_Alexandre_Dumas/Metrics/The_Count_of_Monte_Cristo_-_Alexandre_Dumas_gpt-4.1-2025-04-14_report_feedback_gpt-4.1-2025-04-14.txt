@@ -1,0 +1,70 @@
+Metrics Report for The_Count_of_Monte_Cristo_-_Alexandre_Dumas (gpt-4.1-2025-04-14)
+============================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1590
+- simple_agent_extraction: 0.2428
+- simple_agent_jailbreak: 0.2656
+- simple_agent_extraction_refined_first: 0.2943
+- simple_agent_extraction_refined_best_no_jail: 0.2711
+- simple_agent_extraction_refined_best: 0.3021
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_extraction:
+  * 37 merged spans, covering 46 passages
+  * Avg span length: 62.95 tokens
+  * Max span length: 118 tokens
+- simple_agent_jailbreak:
+  * 37 merged spans, covering 46 passages
+  * Avg span length: 62.95 tokens
+  * Max span length: 118 tokens
+- simple_agent_extraction_refined_first:
+  * 45 merged spans, covering 54 passages
+  * Avg span length: 61.56 tokens
+  * Max span length: 118 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 54 merged spans, covering 63 passages
+  * Avg span length: 59.17 tokens
+  * Max span length: 118 tokens
+- simple_agent_extraction_refined_best:
+  * 55 merged spans, covering 64 passages
+  * Avg span length: 58.82 tokens
+  * Max span length: 118 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (118 tokens) Chapter 0, Event 4
+   "the supercargo “ for it is not pleasant to think that a comrade has not done his duty ” “ dantès has done his ” replied the owner “ and that is not saying much it was captain leclere who gave orders for this delay ” “ talking of captain leclere has not dantès given you a letter from him ” “ to menowas there one ” “ i believe that besides the packet captain leclere confided a letter to his care ” “ of what packet are you speaking danglars ” “ why that which dantès left at portoferrajo ” “ how do you know he had a packet to leave at portoferrajo ” danglars turned very"
+
+2. (114 tokens) Chapter 0, Event 4
+   "not pleasant to think that a comrade has not done his duty ” “ dantès has done his ” replied the owner “ and that is not saying much it was captain leclere who gave orders for this delay ” “ talking of captain leclere has not dantès given you a letter from him ” “ to menowas there one ” “ i believe that besides the packet captain leclere confided a letter to his care ” “ of what packet are you speaking danglars ” “ why that which dantès left at portoferrajo ” “ how do you know he had a packet to leave at portoferrajo ” danglars turned very red “"
+
+3. (104 tokens) Chapter 14, Event 5
+   "dantès who made no hesitation in answering “ of what country ” “ a frenchman ” “ your name ” “ edmond dantès ” “ your profession ” “ a sailor ” “ how long have you been here ” “ since the 28th of february 1815 ” “ your crime ” “ i am innocent ” “ but of what are you accused ” “ of having conspired to aid the emperor ’ s return ” “ what for the emperor ’ s returnthe emperor is no longer on the throne then ” “ he abdicated at fontainebleau in 1814 and was sent"
+
+4. (103 tokens) Chapter 14, Event 5
+   "hesitation in answering “ of what country ” “ a frenchman ” “ your name ” “ edmond dantès ” “ your profession ” “ a sailor ” “ how long have you been here ” “ since the 28th of february 1815 ” “ your crime ” “ i am innocent ” “ but of what are you accused ” “ of having conspired to aid the emperor ’ s return ” “ what for the emperor ’ s returnthe emperor is no longer on the throne then ” “ he abdicated at fontainebleau in 1814 and was sent to the island"
+
+5. (98 tokens) Chapter 0, Event 4
+   "of captain leclere has not dantès given you a letter from him ” “ to menowas there one ” “ i believe that besides the packet captain leclere confided a letter to his care ” “ of what packet are you speaking danglars ” “ why that which dantès left at portoferrajo ” “ how do you know he had a packet to leave at portoferrajo ” danglars turned very red “ i was passing close to the door of the captain ’ s cabin which was half open and i saw him give the packet and letter"
+
+6. (96 tokens) Chapter 0, Event 5
+   "“ i am not in the least surprised for she has been to me three times inquiring if there were any news of the pharaon peste edmond you have a very handsome mistress ” “ she is not my mistress ” replied the young sailor gravely “ she is my betrothed ” “ sometimes one and the same thing ” said morrel with a smile “ not with us sir ” replied dantès “ well well my dear edmond ” continued the owner “ don ’ t let me detain you you have managed my affairs"
+
+7. (85 tokens) Chapter 0, Event 4
+   "who gave orders for this delay ” “ talking of captain leclere has not dantès given you a letter from him ” “ to menowas there one ” “ i believe that besides the packet captain leclere confided a letter to his care ” “ of what packet are you speaking danglars ” “ why that which dantès left at portoferrajo ” “ how do you know he had a packet to leave at portoferrajo ” danglars turned very red “ i was passing close"
+
+8. (82 tokens) Chapter 13, Event 4
+   "“ let us visit them all ” said the inspector “ if i once went up those stairs i should never have the courage to come down again ” “ ah this one is not like the other and his madness is less affecting than this one ’ s display of reason ” “ what is his folly ” “ he fancies he possesses an immense treasure the first year he offered government a million of francs for his release the second"
+
+9. (81 tokens) Chapter 25, Event 5
+   "his son the poor old man died ” “ of what did he die ” “ why the doctors called his complaint gastroenteritis i believe his acquaintances say he died of grief but i who saw him in his dying moments i say he died of ” caderousse paused “ of what ” asked the priest anxiously and eagerly “ why of downright starvation ” “ starvation ” exclaimed the abbé springing from his seat “ why the vilest animals are"
+
+10. (78 tokens) Chapter 25, Event 2
+   "“ yes sir ” answered the host even more surprised at the question than he had been by the silence which had preceded it “ i am gaspard caderousse at your service ” “ gaspard caderousse ” rejoined the priest “ yeschristian and surname are the same you formerly lived i believe in the allées de meilhan on the fourth floor ” “ i did ” “ and you followed the business of a tailor ” “ true"
+

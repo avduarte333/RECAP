@@ -1,0 +1,728 @@
+AGGREGATE METRICS SUMMARY - Feedback Model: gpt-4.1-2025-04-14
+================================================================================
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+books Processed by Category:
+- Public_Domain: 15 books
+  - Pride_and_Prejudice_-_Jane_Austen
+  - A_Christmas_Carol_-_Charles_Dickens
+  - The_Count_of_Monte_Cristo_-_Alexandre_Dumas
+  - Jane_Eyre_-_Charlotte_Bronte
+  - Grimms_Fairy_Tales_-_Grimm_Brothers
+  - Around_the_World_in_Eighty_Days_-_Jules_Verne
+  - Dracula_-_Bram_Stoker
+  - The_Adventures_of_Tom_Sawyer_-_Mark_Twain
+  - The_Scarlet_Letter_-_Nathaniel_Hawthorne
+  - Frankenstein_Or_The_Modern_Prometheus_-_Mary_Wollstonecraft_Shelley
+  - Adventures_of_Huckleberry_Finn_-_Mark_Twain
+  - The_Great_Gatsby_-_F._Scott_Fitzgerald
+  - Alice_Adventures_in_Wonderland_-_Lewis_Carroll
+  - Treasure_Island_-_Robert_Louis_Stevenson
+  - The_Adventures_of_Sherlock_Holmes_-_Arthur_Conan_Doyle
+- Copyrighted_Books: 15 books
+  - The_Hobbit_-_J_R_R_Tolkien
+  - The_Little_Prince_-_Antoine_de_Saint_Exupery
+  - The_Chronicles_of_Narnia_The_Lion_The_Witch_and_The_Wardrobe_-_C_S_Lewis
+  - Harry_Potter_and_the_Philosopher's_Stone_-_JK_Rowling
+  - Twilight_-_Stephenie_Meyer
+  - Harry_Potter_and_the_Chamber_of_Secrets_-_JK_Rowling
+  - Percy_Jackson_and_the_Lightning_Thief_-_Rick_Riordan
+  - And_Then_There_Were_None_-_Agatha_Christie
+  - Harry_Potter_and_the_Half-Blood_Prince_-_JK_Rowling
+  - Harry_Potter_and_the_Deathly_Hallows_-_JK_Rowling
+  - Fifty_Shades_of_Grey_-_E_L_James
+  - The_Fellowship_of_the_Ring_-_J_R_R_Tolkien
+  - Animal_Farm_-_George_Orwell
+  - The_Hunger_Games_-_Suzanne_Collins
+  - The_Da_Vinci_Code_-_Dan_Brown
+
+Category: Public_Domain
+-----------------------
+
+Models Evaluated:
+- Qwen_Qwen3-32B: 15 books
+- claude-3-7-sonnet-20250219: 15 books
+- deepseek-chat: 15 books
+- gemini-2.5-flash-preview-04-17: 15 books
+- gemini-2.5-pro-preview-05-06: 15 books
+- gpt-4.1-2025-04-14: 15 books
+- gpt-4.1-mini-2025-04-14: 15 books
+- gpt-4.1-nano-2025-04-14: 15 books
+
+Average (Bootstrap) ROUGE‐L Scores by Model:
+
+Qwen_Qwen3-32B:
+- RougeL_prefix-probing: 0.1365 ± 0.0035
+- RougeL_simple_agent_extraction: 0.2256 ± 0.0140
+- RougeL_simple_agent_jailbreak: 0.2464 ± 0.0148
+- RougeL_simple_agent_extraction_refined_first: 0.2579 ± 0.0160
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2359 ± 0.0151
+- RougeL_simple_agent_extraction_refined_best: 0.2588 ± 0.0162
+
+claude-3-7-sonnet-20250219:
+- RougeL_prefix-probing: 0.0509 ± 0.0138
+- RougeL_simple_agent_extraction: 0.2876 ± 0.0733
+- RougeL_simple_agent_jailbreak: 0.5917 ± 0.0544
+- RougeL_simple_agent_extraction_refined_first: 0.7246 ± 0.0435
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.3061 ± 0.0749
+- RougeL_simple_agent_extraction_refined_best: 0.8191 ± 0.0302
+
+deepseek-chat:
+- RougeL_prefix-probing: 0.1641 ± 0.0083
+- RougeL_simple_agent_extraction: 0.6317 ± 0.0309
+- RougeL_simple_agent_jailbreak: 0.6840 ± 0.0341
+- RougeL_simple_agent_extraction_refined_first: 0.7415 ± 0.0346
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.6620 ± 0.0302
+- RougeL_simple_agent_extraction_refined_best: 0.7605 ± 0.0350
+
+gemini-2.5-flash-preview-04-17:
+- RougeL_prefix-probing: 0.0768 ± 0.0099
+- RougeL_simple_agent_extraction: 0.2759 ± 0.0304
+- RougeL_simple_agent_jailbreak: 0.3349 ± 0.0369
+- RougeL_simple_agent_extraction_refined_first: 0.3660 ± 0.0416
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.3031 ± 0.0354
+- RougeL_simple_agent_extraction_refined_best: 0.3710 ± 0.0425
+
+gemini-2.5-pro-preview-05-06:
+- RougeL_prefix-probing: 0.0417 ± 0.0075
+- RougeL_simple_agent_extraction: 0.1193 ± 0.0209
+- RougeL_simple_agent_jailbreak: 0.1922 ± 0.0212
+- RougeL_simple_agent_extraction_refined_first: 0.2439 ± 0.0270
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.1376 ± 0.0250
+- RougeL_simple_agent_extraction_refined_best: 0.2554 ± 0.0301
+
+gpt-4.1-2025-04-14:
+- RougeL_prefix-probing: 0.2754 ± 0.0463
+- RougeL_simple_agent_extraction: 0.5341 ± 0.0428
+- RougeL_simple_agent_jailbreak: 0.5685 ± 0.0470
+- RougeL_simple_agent_extraction_refined_first: 0.6342 ± 0.0489
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.5939 ± 0.0426
+- RougeL_simple_agent_extraction_refined_best: 0.6517 ± 0.0489
+
+gpt-4.1-mini-2025-04-14:
+- RougeL_prefix-probing: 0.1524 ± 0.0087
+- RougeL_simple_agent_extraction: 0.2584 ± 0.0224
+- RougeL_simple_agent_jailbreak: 0.2791 ± 0.0244
+- RougeL_simple_agent_extraction_refined_first: 0.3100 ± 0.0283
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2960 ± 0.0270
+- RougeL_simple_agent_extraction_refined_best: 0.3218 ± 0.0294
+
+gpt-4.1-nano-2025-04-14:
+- RougeL_prefix-probing: 0.1259 ± 0.0052
+- RougeL_simple_agent_extraction: 0.1727 ± 0.0125
+- RougeL_simple_agent_jailbreak: 0.1949 ± 0.0137
+- RougeL_simple_agent_extraction_refined_first: 0.2342 ± 0.0157
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2110 ± 0.0148
+- RougeL_simple_agent_extraction_refined_best: 0.2370 ± 0.0161
+
+Span Statistics by Model (sums/means/max):
+
+Qwen_Qwen3-32B:
+- prefix-probing:
+  * Total merged spans: 12
+  * Total passages covered:  16
+  * Avg span length:        22.85 tokens
+  * Max span length:        98.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 37
+  * Total passages covered:  50
+  * Avg span length:        27.60 tokens
+  * Max span length:        200.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 37
+  * Total passages covered:  50
+  * Avg span length:        27.60 tokens
+  * Max span length:        200.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 44
+  * Total passages covered:  55
+  * Avg span length:        32.56 tokens
+  * Max span length:        110.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 44
+  * Total passages covered:  55
+  * Avg span length:        32.56 tokens
+  * Max span length:        110.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 44
+  * Total passages covered:  55
+  * Avg span length:        32.56 tokens
+  * Max span length:        110.0 tokens
+
+
+claude-3-7-sonnet-20250219:
+- prefix-probing:
+  * Total merged spans: 661
+  * Total passages covered:  1610
+  * Avg span length:        86.70 tokens
+  * Max span length:        1171.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 5029
+  * Total passages covered:  13091
+  * Avg span length:        108.90 tokens
+  * Max span length:        1440.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 11819
+  * Total passages covered:  26206
+  * Avg span length:        107.17 tokens
+  * Max span length:        1440.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 16194
+  * Total passages covered:  37144
+  * Avg span length:        114.87 tokens
+  * Max span length:        1440.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 5484
+  * Total passages covered:  14312
+  * Avg span length:        110.76 tokens
+  * Max span length:        1440.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 18886
+  * Total passages covered:  45758
+  * Avg span length:        120.57 tokens
+  * Max span length:        1440.0 tokens
+
+
+deepseek-chat:
+- prefix-probing:
+  * Total merged spans: 276
+  * Total passages covered:  1143
+  * Avg span length:        140.27 tokens
+  * Max span length:        1596.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 11495
+  * Total passages covered:  34983
+  * Avg span length:        144.85 tokens
+  * Max span length:        2012.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 11669
+  * Total passages covered:  35457
+  * Avg span length:        144.08 tokens
+  * Max span length:        2012.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 12922
+  * Total passages covered:  38459
+  * Avg span length:        141.35 tokens
+  * Max span length:        2012.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 12502
+  * Total passages covered:  37373
+  * Avg span length:        142.74 tokens
+  * Max span length:        2012.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 13543
+  * Total passages covered:  39613
+  * Avg span length:        138.30 tokens
+  * Max span length:        2012.0 tokens
+
+
+gemini-2.5-flash-preview-04-17:
+- prefix-probing:
+  * Total merged spans: 127
+  * Total passages covered:  198
+  * Avg span length:        34.28 tokens
+  * Max span length:        323.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 1068
+  * Total passages covered:  1770
+  * Avg span length:        72.24 tokens
+  * Max span length:        590.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 1363
+  * Total passages covered:  2280
+  * Avg span length:        70.86 tokens
+  * Max span length:        590.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 1531
+  * Total passages covered:  2570
+  * Avg span length:        71.39 tokens
+  * Max span length:        590.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 1218
+  * Total passages covered:  2030
+  * Avg span length:        72.32 tokens
+  * Max span length:        590.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 1573
+  * Total passages covered:  2644
+  * Avg span length:        71.43 tokens
+  * Max span length:        590.0 tokens
+
+
+gemini-2.5-pro-preview-05-06:
+- prefix-probing:
+  * Total merged spans: 448
+  * Total passages covered:  806
+  * Avg span length:        99.03 tokens
+  * Max span length:        590.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 1721
+  * Total passages covered:  4125
+  * Avg span length:        129.09 tokens
+  * Max span length:        782.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 2660
+  * Total passages covered:  5788
+  * Avg span length:        108.53 tokens
+  * Max span length:        782.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 3465
+  * Total passages covered:  7699
+  * Avg span length:        109.31 tokens
+  * Max span length:        1222.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 1927
+  * Total passages covered:  4869
+  * Avg span length:        138.15 tokens
+  * Max span length:        1222.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 3615
+  * Total passages covered:  8074
+  * Avg span length:        109.11 tokens
+  * Max span length:        1222.0 tokens
+
+
+gpt-4.1-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 1473
+  * Total passages covered:  3946
+  * Avg span length:        118.21 tokens
+  * Max span length:        1520.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 7173
+  * Total passages covered:  17756
+  * Avg span length:        116.34 tokens
+  * Max span length:        2033.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 7264
+  * Total passages covered:  18008
+  * Avg span length:        116.27 tokens
+  * Max span length:        2033.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 8661
+  * Total passages covered:  21339
+  * Avg span length:        114.88 tokens
+  * Max span length:        1521.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 8661
+  * Total passages covered:  21226
+  * Avg span length:        115.47 tokens
+  * Max span length:        1521.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 9195
+  * Total passages covered:  22368
+  * Avg span length:        113.94 tokens
+  * Max span length:        1521.0 tokens
+
+
+gpt-4.1-mini-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 116
+  * Total passages covered:  310
+  * Avg span length:        83.48 tokens
+  * Max span length:        466.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 333
+  * Total passages covered:  639
+  * Avg span length:        67.93 tokens
+  * Max span length:        489.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 339
+  * Total passages covered:  647
+  * Avg span length:        67.79 tokens
+  * Max span length:        489.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 406
+  * Total passages covered:  728
+  * Avg span length:        76.12 tokens
+  * Max span length:        489.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 407
+  * Total passages covered:  726
+  * Avg span length:        75.22 tokens
+  * Max span length:        489.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 415
+  * Total passages covered:  736
+  * Avg span length:        74.98 tokens
+  * Max span length:        489.0 tokens
+
+
+gpt-4.1-nano-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 4
+  * Total passages covered:  9
+  * Avg span length:        12.11 tokens
+  * Max span length:        198.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 14
+  * Total passages covered:  23
+  * Avg span length:        19.20 tokens
+  * Max span length:        185.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 14
+  * Total passages covered:  23
+  * Avg span length:        19.20 tokens
+  * Max span length:        185.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 20
+  * Total passages covered:  34
+  * Avg span length:        26.77 tokens
+  * Max span length:        185.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 20
+  * Total passages covered:  34
+  * Avg span length:        27.14 tokens
+  * Max span length:        185.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 20
+  * Total passages covered:  34
+  * Avg span length:        27.14 tokens
+  * Max span length:        185.0 tokens
+
+
+
+Category: Copyrighted_Books
+---------------------------
+
+Models Evaluated:
+- Qwen_Qwen3-32B: 15 books
+- claude-3-7-sonnet-20250219: 15 books
+- deepseek-chat: 15 books
+- gemini-2.5-flash-preview-04-17: 15 books
+- gemini-2.5-pro-preview-05-06: 15 books
+- gpt-4.1-2025-04-14: 15 books
+- gpt-4.1-mini-2025-04-14: 15 books
+- gpt-4.1-nano-2025-04-14: 15 books
+
+Average (Bootstrap) ROUGE‐L Scores by Model:
+
+Qwen_Qwen3-32B:
+- RougeL_prefix-probing: 0.1307 ± 0.0041
+- RougeL_simple_agent_extraction: 0.2232 ± 0.0107
+- RougeL_simple_agent_jailbreak: 0.2451 ± 0.0128
+- RougeL_simple_agent_extraction_refined_first: 0.2602 ± 0.0147
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2378 ± 0.0129
+- RougeL_simple_agent_extraction_refined_best: 0.2615 ± 0.0152
+
+claude-3-7-sonnet-20250219:
+- RougeL_prefix-probing: 0.0078 ± 0.0047
+- RougeL_simple_agent_extraction: 0.1077 ± 0.0342
+- RougeL_simple_agent_jailbreak: 0.4416 ± 0.0370
+- RougeL_simple_agent_extraction_refined_first: 0.5487 ± 0.0417
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.1275 ± 0.0363
+- RougeL_simple_agent_extraction_refined_best: 0.6243 ± 0.0438
+
+deepseek-chat:
+- RougeL_prefix-probing: 0.1391 ± 0.0067
+- RougeL_simple_agent_extraction: 0.4495 ± 0.0504
+- RougeL_simple_agent_jailbreak: 0.4787 ± 0.0532
+- RougeL_simple_agent_extraction_refined_first: 0.5230 ± 0.0572
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.4879 ± 0.0527
+- RougeL_simple_agent_extraction_refined_best: 0.5355 ± 0.0584
+
+gemini-2.5-flash-preview-04-17:
+- RougeL_prefix-probing: 0.0748 ± 0.0090
+- RougeL_simple_agent_extraction: 0.3001 ± 0.0283
+- RougeL_simple_agent_jailbreak: 0.3373 ± 0.0392
+- RougeL_simple_agent_extraction_refined_first: 0.3679 ± 0.0417
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.3290 ± 0.0292
+- RougeL_simple_agent_extraction_refined_best: 0.3730 ± 0.0424
+
+gemini-2.5-pro-preview-05-06:
+- RougeL_prefix-probing: 0.0267 ± 0.0084
+- RougeL_simple_agent_extraction: 0.0966 ± 0.0240
+- RougeL_simple_agent_jailbreak: 0.1492 ± 0.0241
+- RougeL_simple_agent_extraction_refined_first: 0.2019 ± 0.0302
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.1086 ± 0.0261
+- RougeL_simple_agent_extraction_refined_best: 0.2123 ± 0.0316
+
+gpt-4.1-2025-04-14:
+- RougeL_prefix-probing: 0.1795 ± 0.0238
+- RougeL_simple_agent_extraction: 0.3792 ± 0.0525
+- RougeL_simple_agent_jailbreak: 0.3969 ± 0.0561
+- RougeL_simple_agent_extraction_refined_first: 0.4508 ± 0.0593
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.4420 ± 0.0545
+- RougeL_simple_agent_extraction_refined_best: 0.4684 ± 0.0597
+
+gpt-4.1-mini-2025-04-14:
+- RougeL_prefix-probing: 0.1235 ± 0.0060
+- RougeL_simple_agent_extraction: 0.2469 ± 0.0154
+- RougeL_simple_agent_jailbreak: 0.2627 ± 0.0188
+- RougeL_simple_agent_extraction_refined_first: 0.2919 ± 0.0215
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2859 ± 0.0185
+- RougeL_simple_agent_extraction_refined_best: 0.3059 ± 0.0231
+
+gpt-4.1-nano-2025-04-14:
+- RougeL_prefix-probing: 0.1136 ± 0.0049
+- RougeL_simple_agent_extraction: 0.1977 ± 0.0156
+- RougeL_simple_agent_jailbreak: 0.2158 ± 0.0167
+- RougeL_simple_agent_extraction_refined_first: 0.2430 ± 0.0175
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.2239 ± 0.0159
+- RougeL_simple_agent_extraction_refined_best: 0.2450 ± 0.0178
+
+Span Statistics by Model (sums/means/max):
+
+Qwen_Qwen3-32B:
+- prefix-probing:
+  * Total merged spans: 2
+  * Total passages covered:  2
+  * Avg span length:        7.47 tokens
+  * Max span length:        71.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 31
+  * Total passages covered:  33
+  * Avg span length:        22.03 tokens
+  * Max span length:        87.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 35
+  * Total passages covered:  37
+  * Avg span length:        22.18 tokens
+  * Max span length:        87.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 53
+  * Total passages covered:  55
+  * Avg span length:        22.89 tokens
+  * Max span length:        87.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 51
+  * Total passages covered:  53
+  * Avg span length:        22.74 tokens
+  * Max span length:        87.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 55
+  * Total passages covered:  57
+  * Avg span length:        22.86 tokens
+  * Max span length:        87.0 tokens
+
+
+claude-3-7-sonnet-20250219:
+- prefix-probing:
+  * Total merged spans: 19
+  * Total passages covered:  21
+  * Avg span length:        13.25 tokens
+  * Max span length:        102.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 792
+  * Total passages covered:  1417
+  * Avg span length:        83.47 tokens
+  * Max span length:        248.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 6263
+  * Total passages covered:  10330
+  * Avg span length:        84.83 tokens
+  * Max span length:        333.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 8970
+  * Total passages covered:  15912
+  * Avg span length:        90.51 tokens
+  * Max span length:        652.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 1198
+  * Total passages covered:  2077
+  * Avg span length:        83.92 tokens
+  * Max span length:        410.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 11665
+  * Total passages covered:  22006
+  * Avg span length:        98.01 tokens
+  * Max span length:        1184.0 tokens
+
+
+deepseek-chat:
+- prefix-probing:
+  * Total merged spans: 30
+  * Total passages covered:  63
+  * Avg span length:        33.72 tokens
+  * Max span length:        291.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 7426
+  * Total passages covered:  14104
+  * Avg span length:        90.77 tokens
+  * Max span length:        796.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 7448
+  * Total passages covered:  14151
+  * Avg span length:        90.67 tokens
+  * Max span length:        796.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 8148
+  * Total passages covered:  15434
+  * Avg span length:        89.30 tokens
+  * Max span length:        796.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 8103
+  * Total passages covered:  15311
+  * Avg span length:        89.08 tokens
+  * Max span length:        796.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 8299
+  * Total passages covered:  15602
+  * Avg span length:        88.31 tokens
+  * Max span length:        796.0 tokens
+
+
+gemini-2.5-flash-preview-04-17:
+- prefix-probing:
+  * Total merged spans: 47
+  * Total passages covered:  54
+  * Avg span length:        25.93 tokens
+  * Max span length:        112.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 1081
+  * Total passages covered:  1414
+  * Avg span length:        57.28 tokens
+  * Max span length:        351.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 1296
+  * Total passages covered:  1735
+  * Avg span length:        57.30 tokens
+  * Max span length:        431.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 1454
+  * Total passages covered:  1963
+  * Avg span length:        58.82 tokens
+  * Max span length:        431.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 1234
+  * Total passages covered:  1603
+  * Avg span length:        57.88 tokens
+  * Max span length:        351.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 1492
+  * Total passages covered:  2015
+  * Avg span length:        58.79 tokens
+  * Max span length:        431.0 tokens
+
+
+gemini-2.5-pro-preview-05-06:
+- prefix-probing:
+  * Total merged spans: 144
+  * Total passages covered:  292
+  * Avg span length:        37.20 tokens
+  * Max span length:        442.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 1151
+  * Total passages covered:  2248
+  * Avg span length:        77.65 tokens
+  * Max span length:        783.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 1489
+  * Total passages covered:  2657
+  * Avg span length:        77.26 tokens
+  * Max span length:        783.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 2112
+  * Total passages covered:  3748
+  * Avg span length:        77.44 tokens
+  * Max span length:        783.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 1275
+  * Total passages covered:  2541
+  * Avg span length:        80.47 tokens
+  * Max span length:        783.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 2240
+  * Total passages covered:  4004
+  * Avg span length:        76.46 tokens
+  * Max span length:        783.0 tokens
+
+
+gpt-4.1-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 385
+  * Total passages covered:  734
+  * Avg span length:        65.89 tokens
+  * Max span length:        291.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 2840
+  * Total passages covered:  5834
+  * Avg span length:        78.76 tokens
+  * Max span length:        804.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 2856
+  * Total passages covered:  5864
+  * Avg span length:        78.61 tokens
+  * Max span length:        804.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 3671
+  * Total passages covered:  7319
+  * Avg span length:        82.01 tokens
+  * Max span length:        804.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 3854
+  * Total passages covered:  7602
+  * Avg span length:        81.53 tokens
+  * Max span length:        804.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 4018
+  * Total passages covered:  7862
+  * Avg span length:        80.54 tokens
+  * Max span length:        804.0 tokens
+
+
+gpt-4.1-mini-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 10
+  * Total passages covered:  16
+  * Avg span length:        21.18 tokens
+  * Max span length:        126.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 95
+  * Total passages covered:  160
+  * Avg span length:        43.24 tokens
+  * Max span length:        227.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 95
+  * Total passages covered:  160
+  * Avg span length:        43.24 tokens
+  * Max span length:        227.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 135
+  * Total passages covered:  230
+  * Avg span length:        56.34 tokens
+  * Max span length:        227.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 147
+  * Total passages covered:  247
+  * Avg span length:        57.16 tokens
+  * Max span length:        227.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 153
+  * Total passages covered:  255
+  * Avg span length:        56.99 tokens
+  * Max span length:        227.0 tokens
+
+
+gpt-4.1-nano-2025-04-14:
+- prefix-probing:
+  * Total merged spans: 0
+  * Total passages covered:  0
+  * Avg span length:        0.00 tokens
+  * Max span length:        0.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 28
+  * Total passages covered:  29
+  * Avg span length:        17.18 tokens
+  * Max span length:        82.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 30
+  * Total passages covered:  31
+  * Avg span length:        20.01 tokens
+  * Max span length:        82.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 35
+  * Total passages covered:  41
+  * Avg span length:        26.39 tokens
+  * Max span length:        127.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 33
+  * Total passages covered:  39
+  * Avg span length:        23.55 tokens
+  * Max span length:        127.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 35
+  * Total passages covered:  41
+  * Avg span length:        26.39 tokens
+  * Max span length:        127.0 tokens

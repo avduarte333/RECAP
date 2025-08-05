@@ -1,0 +1,70 @@
+Metrics Report for Around_the_World_in_Eighty_Days_-_Jules_Verne (gemini-2.5-pro-preview-05-06) with feedback gpt-4.1-2025-04-14
+================================================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.0439
+- simple_agent_extraction: 0.1121
+- simple_agent_jailbreak: 0.1646
+- simple_agent_extraction_refined_first: 0.2144
+- simple_agent_extraction_refined_best_no_jail: 0.1290
+- simple_agent_extraction_refined_best: 0.2145
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 21 merged spans, covering 25 passages
+  * Avg span length: 63.71 tokens
+  * Max span length: 113 tokens
+- simple_agent_extraction:
+  * 135 merged spans, covering 213 passages
+  * Avg span length: 80.55 tokens
+  * Max span length: 195 tokens
+- simple_agent_jailbreak:
+  * 148 merged spans, covering 226 passages
+  * Avg span length: 78.14 tokens
+  * Max span length: 195 tokens
+- simple_agent_extraction_refined_first:
+  * 180 merged spans, covering 279 passages
+  * Avg span length: 78.46 tokens
+  * Max span length: 205 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 155 merged spans, covering 254 passages
+  * Avg span length: 82.70 tokens
+  * Max span length: 205 tokens
+- simple_agent_extraction_refined_best:
+  * 181 merged spans, covering 280 passages
+  * Avg span length: 78.27 tokens
+  * Max span length: 205 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (205 tokens) Chapter 5, Event 0
+   "plied regularly between brindisi and bombay viâ the suez canal and was one of the fastest steamers belonging to the company always making more than ten knots an hour between brindisi and suez and nine and a half between suez and bombay two men were promenading up and down the wharves among the crowd of natives and strangers who were sojourning at this once straggling villagenow thanks to the enterprise of m lesseps a fastgrowing town one was the british consul at suez who despite the prophecies of the english government and the unfavourable predictions of stephenson was in the habit of seeing from his office window english ships daily passing to and fro on the great canal by which the old roundabout route from england to india by the cape of good hope was abridged by at least a half the other was a small slightbuilt personage with a nervous intelligent face and bright eyes peering out from under eyebrows which he was incessantly twitching he was just now manifesting unmistakable signs of impatience nervously pacing up and down and unable to stand still for a moment this was fix one of the detectives who had been dispatched from england in search of the"
+
+2. (200 tokens) Chapter 5, Event 0
+   "the suez canal and was one of the fastest steamers belonging to the company always making more than ten knots an hour between brindisi and suez and nine and a half between suez and bombay two men were promenading up and down the wharves among the crowd of natives and strangers who were sojourning at this once straggling villagenow thanks to the enterprise of m lesseps a fastgrowing town one was the british consul at suez who despite the prophecies of the english government and the unfavourable predictions of stephenson was in the habit of seeing from his office window english ships daily passing to and fro on the great canal by which the old roundabout route from england to india by the cape of good hope was abridged by at least a half the other was a small slightbuilt personage with a nervous intelligent face and bright eyes peering out from under eyebrows which he was incessantly twitching he was just now manifesting unmistakable signs of impatience nervously pacing up and down and unable to stand still for a moment this was fix one of the detectives who had been dispatched from england in search of the bank robber"
+
+3. (195 tokens) Chapter 21, Event 4
+   "the streets were crowded with people priests were passing in processions beating their dreary tambourines police and customhouse officers with pointed hats encrusted with lac and carrying two sabres hung to their waists soldiers clad in blue cotton with white stripes and bearing guns the mikado ’ s guards enveloped in silken doubles hauberks and coats of mail and numbers of military folk of all ranksfor the military profession is as much respected in japan as it is despised in chinawent hither and thither in groups and pairs passepartout saw too begging friars longrobed pilgrims and simple civilians with their warped and jetblack hair big heads long busts slender legs short stature and complexions varying from coppercolour to a dead white but never yellow like the chinese from whom the japanese widely differ he did not fail to observe the curious equipagescarriages and palanquins barrows supplied with sails and litters made of bamboo nor the womenwhom he thought not especially handsomewho took little steps with their little feet whereon they wore canvas shoes straw sandals and clogs of worked wood and who displayed tightlooking eyes flat chests teeth fashionably blackened and gowns crossed with silken"
+
+4. (183 tokens) Chapter 13, Event 6
+   "verdure its fields of barley wheat and corn its jungles peopled with green alligators its neat villages and its still thicklyleaved forests elephants were bathing in the waters of the sacred river and groups of indians despite the advanced season and chilly air were performing solemnly their pious ablutions these were fervent brahmins the bitterest foes of buddhism their deities being vishnu the solar god shiva the divine impersonation of natural forces and brahma the supreme ruler of priests and legislators what would these divinities think of india anglicised as it is today with steamers whistling and scudding along the ganges frightening the gulls which float upon its surface the turtles swarming along its banks and the faithful dwelling upon its borders the panorama passed before their eyes like a flash save when the steam concealed it fitfully from the view the travellers could scarcely discern the fort of chupenie twenty miles southwestward from benares the ancient stronghold of the rajahs of behar or ghazipur and its famous rosewater factories or the tomb of lord cornwallis rising on the left bank of the"
+
+5. (168 tokens) Chapter 5, Event 0
+   "the “ mongolia ” plied regularly between brindisi and bombay viâ the suez canal and was one of the fastest steamers belonging to the company always making more than ten knots an hour between brindisi and suez and nine and a half between suez and bombay two men were promenading up and down the wharves among the crowd of natives and strangers who were sojourning at this once straggling villagenow thanks to the enterprise of m lesseps a fastgrowing town one was the british consul at suez who despite the prophecies of the english government and the unfavourable predictions of stephenson was in the habit of seeing from his office window english ships daily passing to and fro on the great canal by which the old roundabout route from england to india by the cape of good hope was abridged by at least a half the other was a small slightbuilt personage with a nervous intelligent face and bright eyes peering out from under eyebrows which he was"
+
+6. (168 tokens) Chapter 5, Event 0
+   "mongolia ” plied regularly between brindisi and bombay viâ the suez canal and was one of the fastest steamers belonging to the company always making more than ten knots an hour between brindisi and suez and nine and a half between suez and bombay two men were promenading up and down the wharves among the crowd of natives and strangers who were sojourning at this once straggling villagenow thanks to the enterprise of m lesseps a fastgrowing town one was the british consul at suez who despite the prophecies of the english government and the unfavourable predictions of stephenson was in the habit of seeing from his office window english ships daily passing to and fro on the great canal by which the old roundabout route from england to india by the cape of good hope was abridged by at least a half the other was a small slightbuilt personage with a nervous intelligent face and bright eyes peering out from under eyebrows which he was incessantly twitching"
+
+7. (166 tokens) Chapter 21, Event 3
+   "this is an important port of call in the pacific where all the mailsteamers and those carrying travellers between north america china japan and the oriental islands put in it is situated in the bay of yeddo and at but a short distance from that second capital of the japanese empire and the residence of the tycoon the civil emperor before the mikado the spiritual emperor absorbed his office in his own the “ carnatic ” anchored at the quay near the customhouse in the midst of a crowd of ships bearing the flags of all nations passepartout went timidly ashore on this so curious territory of the sons of the sun he had nothing better to do than taking chance for his guide to wander aimlessly through the streets of yokohama he found himself at first in a thoroughly european quarter the houses having low fronts and being adorned with verandas beneath which he caught glimpses of neat peristyles this quarter occupied with its streets"
+
+8. (163 tokens) Chapter 13, Event 6
+   "carriage the travellers had glimpses of the diversified landscape of behar with its mountains clothed in verdure its fields of barley wheat and corn its jungles peopled with green alligators its neat villages and its still thicklyleaved forests elephants were bathing in the waters of the sacred river and groups of indians despite the advanced season and chilly air were performing solemnly their pious ablutions these were fervent brahmins the bitterest foes of buddhism their deities being vishnu the solar god shiva the divine impersonation of natural forces and brahma the supreme ruler of priests and legislators what would these divinities think of india anglicised as it is today with steamers whistling and scudding along the ganges frightening the gulls which float upon its surface the turtles swarming along its banks and the faithful dwelling upon its borders the panorama passed before their eyes like a flash save when the steam concealed it fitfully from the view the travellers could scarcely discern the"
+
+9. (163 tokens) Chapter 13, Event 6
+   "forests elephants were bathing in the waters of the sacred river and groups of indians despite the advanced season and chilly air were performing solemnly their pious ablutions these were fervent brahmins the bitterest foes of buddhism their deities being vishnu the solar god shiva the divine impersonation of natural forces and brahma the supreme ruler of priests and legislators what would these divinities think of india anglicised as it is today with steamers whistling and scudding along the ganges frightening the gulls which float upon its surface the turtles swarming along its banks and the faithful dwelling upon its borders the panorama passed before their eyes like a flash save when the steam concealed it fitfully from the view the travellers could scarcely discern the fort of chupenie twenty miles southwestward from benares the ancient stronghold of the rajahs of behar or ghazipur and its famous rosewater factories or the tomb of lord cornwallis rising on the left bank of the ganges"
+
+10. (158 tokens) Chapter 26, Event 1
+   "said “ i tell you that joe smith is a martyr that his brother hiram is a martyr and that the persecutions of the united states government against the prophets will also make a martyr of brigham young who dares to say the contrary ” no one ventured to gainsay the missionary whose excited tone contrasted curiously with his naturally calm visage no doubt his anger arose from the hardships to which the mormons were actually subjected the government had just succeeded with some difficulty in reducing these independent fanatics to its rule it had made itself master of utah and subjected that territory to the laws of the union after imprisoning brigham young on a charge of rebellion and polygamy the disciples of the prophet had since redoubled their efforts and resisted by words at least the authority of congress elder hitch as is seen was trying to make proselytes on the very railway trains then emphasising"
+

@@ -1,0 +1,140 @@
+AGGREGATE METRICS SUMMARY - Feedback Model: gpt-4.1-nano-2025-04-14
+================================================================================
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+books Processed by Category:
+- Public_Domain: 15 books
+  - Pride_and_Prejudice_-_Jane_Austen
+  - A_Christmas_Carol_-_Charles_Dickens
+  - The_Count_of_Monte_Cristo_-_Alexandre_Dumas
+  - Jane_Eyre_-_Charlotte_Bronte
+  - Grimms_Fairy_Tales_-_Grimm_Brothers
+  - Around_the_World_in_Eighty_Days_-_Jules_Verne
+  - Dracula_-_Bram_Stoker
+  - The_Adventures_of_Tom_Sawyer_-_Mark_Twain
+  - The_Scarlet_Letter_-_Nathaniel_Hawthorne
+  - Frankenstein_Or_The_Modern_Prometheus_-_Mary_Wollstonecraft_Shelley
+  - Adventures_of_Huckleberry_Finn_-_Mark_Twain
+  - The_Great_Gatsby_-_F._Scott_Fitzgerald
+  - Alice_Adventures_in_Wonderland_-_Lewis_Carroll
+  - Treasure_Island_-_Robert_Louis_Stevenson
+  - The_Adventures_of_Sherlock_Holmes_-_Arthur_Conan_Doyle
+- Copyrighted_Books: 15 books
+  - The_Hobbit_-_J_R_R_Tolkien
+  - The_Little_Prince_-_Antoine_de_Saint_Exupery
+  - The_Chronicles_of_Narnia_The_Lion_The_Witch_and_The_Wardrobe_-_C_S_Lewis
+  - Harry_Potter_and_the_Philosopher's_Stone_-_JK_Rowling
+  - Twilight_-_Stephenie_Meyer
+  - Harry_Potter_and_the_Chamber_of_Secrets_-_JK_Rowling
+  - Percy_Jackson_and_the_Lightning_Thief_-_Rick_Riordan
+  - And_Then_There_Were_None_-_Agatha_Christie
+  - Harry_Potter_and_the_Half-Blood_Prince_-_JK_Rowling
+  - Harry_Potter_and_the_Deathly_Hallows_-_JK_Rowling
+  - Fifty_Shades_of_Grey_-_E_L_James
+  - The_Fellowship_of_the_Ring_-_J_R_R_Tolkien
+  - Animal_Farm_-_George_Orwell
+  - The_Hunger_Games_-_Suzanne_Collins
+  - The_Da_Vinci_Code_-_Dan_Brown
+
+Category: Public_Domain
+-----------------------
+
+Models Evaluated:
+- deepseek-chat: 15 books
+
+Average (Bootstrap) ROUGE‐L Scores by Model:
+
+deepseek-chat:
+- RougeL_prefix-probing: 0.1665 ± 0.0086
+- RougeL_simple_agent_extraction: 0.6304 ± 0.0290
+- RougeL_simple_agent_jailbreak: 0.6841 ± 0.0313
+- RougeL_simple_agent_extraction_refined_first: 0.7315 ± 0.0337
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.6476 ± 0.0280
+- RougeL_simple_agent_extraction_refined_best: 0.7460 ± 0.0349
+
+Span Statistics by Model (sums/means/max):
+
+deepseek-chat:
+- prefix-probing:
+  * Total merged spans: 387
+  * Total passages covered:  1257
+  * Avg span length:        121.33 tokens
+  * Max span length:        1596.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 13435
+  * Total passages covered:  38202
+  * Avg span length:        133.23 tokens
+  * Max span length:        2920.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 13688
+  * Total passages covered:  38714
+  * Avg span length:        132.59 tokens
+  * Max span length:        2920.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 15008
+  * Total passages covered:  41519
+  * Avg span length:        129.84 tokens
+  * Max span length:        2920.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 14046
+  * Total passages covered:  39785
+  * Avg span length:        132.82 tokens
+  * Max span length:        2920.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 15405
+  * Total passages covered:  42297
+  * Avg span length:        128.41 tokens
+  * Max span length:        2920.0 tokens
+
+
+
+Category: Copyrighted_Books
+---------------------------
+
+Models Evaluated:
+- deepseek-chat: 15 books
+
+Average (Bootstrap) ROUGE‐L Scores by Model:
+
+deepseek-chat:
+- RougeL_prefix-probing: 0.1398 ± 0.0060
+- RougeL_simple_agent_extraction: 0.4422 ± 0.0422
+- RougeL_simple_agent_jailbreak: 0.4768 ± 0.0472
+- RougeL_simple_agent_extraction_refined_first: 0.5068 ± 0.0517
+- RougeL_simple_agent_extraction_refined_best_no_jail: 0.4594 ± 0.0434
+- RougeL_simple_agent_extraction_refined_best: 0.5136 ± 0.0536
+
+Span Statistics by Model (sums/means/max):
+
+deepseek-chat:
+- prefix-probing:
+  * Total merged spans: 33
+  * Total passages covered:  78
+  * Avg span length:        35.14 tokens
+  * Max span length:        319.0 tokens
+- simple_agent_extraction:
+  * Total merged spans: 7665
+  * Total passages covered:  14335
+  * Avg span length:        86.93 tokens
+  * Max span length:        986.0 tokens
+- simple_agent_jailbreak:
+  * Total merged spans: 7694
+  * Total passages covered:  14400
+  * Avg span length:        86.86 tokens
+  * Max span length:        986.0 tokens
+- simple_agent_extraction_refined_first:
+  * Total merged spans: 8177
+  * Total passages covered:  15163
+  * Avg span length:        86.20 tokens
+  * Max span length:        986.0 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * Total merged spans: 8075
+  * Total passages covered:  14988
+  * Avg span length:        86.52 tokens
+  * Max span length:        986.0 tokens
+- simple_agent_extraction_refined_best:
+  * Total merged spans: 8310
+  * Total passages covered:  15399
+  * Avg span length:        86.03 tokens
+  * Max span length:        986.0 tokens

@@ -1,0 +1,70 @@
+Metrics Report for Around_the_World_in_Eighty_Days_-_Jules_Verne (gemini-2.5-flash-preview-04-17)
+============================================================
+
+ROUGE-L Scores:
+- prefix-probing: 0.1657
+- simple_agent_extraction: 0.3581
+- simple_agent_jailbreak: 0.3581
+- simple_agent_extraction_refined_first: 0.4004
+- simple_agent_extraction_refined_best_no_jail: 0.4241
+- simple_agent_extraction_refined_best: 0.4241
+
+Span Parameters: min_tokens=40, max_mismatch_tokens=5
+
+Contiguous Span Statistics:
+- prefix-probing:
+  * 0 merged spans, covering 0 passages
+  * Avg span length: 0.00 tokens
+  * Max span length: 0 tokens
+- simple_agent_extraction:
+  * 13 merged spans, covering 13 passages
+  * Avg span length: 53.23 tokens
+  * Max span length: 69 tokens
+- simple_agent_jailbreak:
+  * 13 merged spans, covering 13 passages
+  * Avg span length: 53.23 tokens
+  * Max span length: 69 tokens
+- simple_agent_extraction_refined_first:
+  * 18 merged spans, covering 18 passages
+  * Avg span length: 50.72 tokens
+  * Max span length: 69 tokens
+- simple_agent_extraction_refined_best_no_jail:
+  * 28 merged spans, covering 28 passages
+  * Avg span length: 50.04 tokens
+  * Max span length: 69 tokens
+- simple_agent_extraction_refined_best:
+  * 28 merged spans, covering 28 passages
+  * Avg span length: 50.04 tokens
+  * Max span length: 69 tokens
+
+Top Spans for 'simple_agent_extraction_refined_best':
+1. (69 tokens) Chapter 0, Event 0
+   "he was one of the most noticeable members of the reform club though he seemed always to avoid attracting attention an enigmatical personage about whom little was known except that he was a polished man of the world people said that he resembled byronat least that his head was byronic but he was a bearded tranquil byron who might live on a thousand years without growing old certainly an"
+
+2. (67 tokens) Chapter 0, Event 0
+   "he seemed always to avoid attracting attention an enigmatical personage about whom little was known except that he was a polished man of the world people said that he resembled byronat least that his head was byronic but he was a bearded tranquil byron who might live on a thousand years without growing old certainly an englishman it was more doubtful whether phileas fogg was a londoner"
+
+3. (67 tokens) Chapter 35, Event 5
+   "at the fiftieth still nothing at the fiftyfifth a loud cry was heard in the street followed by applause hurrahs and some fierce growls the players rose from their seats at the fiftyseventh second the door of the saloon opened and the pendulum had not beat the sixtieth second when phileas fogg appeared followed by an excited crowd who had forced their way through the club doors"
+
+4. (60 tokens) Chapter 0, Event 0
+   "whom little was known except that he was a polished man of the world people said that he resembled byronat least that his head was byronic but he was a bearded tranquil byron who might live on a thousand years without growing old certainly an englishman it was more doubtful whether phileas fogg was a londoner he was never seen"
+
+5. (56 tokens) Chapter 36, Event 2
+   "there are three hundred and sixty degrees on the circumference of the earth and these three hundred and sixty degrees multiplied by four minutes gives precisely twentyfour hoursthat is the day unconsciously gained in other words while phileas fogg going eastward saw the sun pass the meridian eighty times his friends in london only saw it"
+
+6. (53 tokens) Chapter 6, Event 1
+   "“ you are mr phileas fogg ” said the consul after reading the passport “ i am ” “ and this man is your servant ” “ he is a frenchman named passepartout ” “ you are from london ” “ yes ” “ and you are going ” “ to bombay ”"
+
+7. (53 tokens) Chapter 33, Event 3
+   "asked if there was an express train about to leave for london it was forty minutes past two the express train had left thirtyfive minutes before phileas fogg then ordered a special train there were several rapid locomotives on hand but the railway arrangements did not permit the special train to leave until"
+
+8. (52 tokens) Chapter 0, Event 1
+   "avaricious for whenever he knew that money was needed for a noble useful or benevolent purpose he supplied it quietly and sometimes anonymously he was in short the least communicative of men he talked very little and seemed all the more mysterious for his taciturn manner his daily habits were quite open"
+
+9. (52 tokens) Chapter 33, Event 0
+   "this new misfortune had he not concealed fix ’ s errand from his master when fix revealed his true character and purpose why had he not told mr fogg if the latter had been warned he would no doubt have given fix proof of his innocence and satisfied him of his mistake"
+
+10. (52 tokens) Chapter 36, Event 6
+   "is it sir why i ’ ve just this instant found out ” “ what ” “ that we might have made the tour of the world in only seventyeight days ” “ no doubt ” returned mr fogg “ by not crossing india but if i had not crossed india i"
+
