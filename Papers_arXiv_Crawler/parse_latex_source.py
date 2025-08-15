@@ -20,7 +20,7 @@ import sys
 # Create a global session with a custom User-Agent header.
 session = requests.Session()
 session.headers.update({
-    'User-Agent': 'MyArxivClient/1.0 andre.v.duarte@tecnico.ulisboa.pt'  # Change email as appropriate.
+    'User-Agent': 'MyArxivClient/1.0 xxxx@yyyy.com'  # Change email as appropriate.
 })
 
 def get_with_retries(url, max_retries=3, backoff_factor=1, stream=False):
