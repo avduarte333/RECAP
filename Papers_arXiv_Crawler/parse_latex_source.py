@@ -15,6 +15,7 @@ import json
 import traceback
 from collections import OrderedDict
 import argparse
+import sys
 
 # Create a global session with a custom User-Agent header.
 session = requests.Session()
@@ -340,7 +341,7 @@ def extract_tex_files_to_dict(archive_path):
     return file_map
 
 def resolve_latex_inputs(file_name, file_map, visited=None, base_path=''):
-    """
+    r"""
     Recursively inline \input, \include, and \subfile commands.
     """
     if visited is None:
@@ -377,7 +378,7 @@ def resolve_latex_inputs(file_name, file_map, visited=None, base_path=''):
     return pattern.sub(replace_commands, content)
 
 def extract_main_body_only(full_text):
-    """
+    r"""
     Extract the main body from \begin{document} until the bibliography or \end{document},
     stripping comments and unnecessary sections.
     """
@@ -579,15 +580,32 @@ def process_papers_from_json(json_file_path, output_json_path=None, recover_id=N
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process ICLR arXiv papers by year.")
-    parser.add_argument("year", type=int, choices=[2024],
-                        help="Year of the Conference dataset")
-    parser.add_argument("--recover_id", type=str, default=None,
-                        help="Paper id from which to resume processing (e.g., '517')")
-    args = parser.parse_args()
-    
-    year = args.year
-    json_file_path = f"/media/govprojectstorage/arxiv_test/ICLR_{year}_grouped_reviews.json"
+    if len(sys.argv) != 2:
+        print("Usage: python parse_latex_source.py <arXiv-id-or-title>")
+        sys.exit(1)
 
-    process_papers_from_json(json_file_path, recover_id=args.recover_id)
+    identifier = sys.argv[1]
+    
+    try:
+        # First, try to process the paper without creating any folders
+        # Use a temporary directory for the download
+        import tempfile
+        with tempfile.TemporaryDirectory() as temp_dir:
+            main_body = process_arxiv_paper(identifier, download_dir=temp_dir)
+            
+            if main_body:
+                # Only create the folder if we successfully extracted content
+                folder = re.sub(r'\s+', '_', identifier)
+                os.makedirs(folder, exist_ok=True)
+                
+                # Write the .tex file
+                output_path = os.path.join(folder, f"{folder}.tex")
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write(main_body)
+                print(f"✅ Extracted main body to {output_path}")
+            else:
+                print("❌ No content extracted.")
+                
+    except Exception as e:
+        print(f"❌ Error: {e}")
 
