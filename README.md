@@ -1,7 +1,7 @@
 # RECAP 🔁
 
-This is the official repository for the paper RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline.
-
+This is the official repository for the paper RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline.<br>
+Blog and Demo coming soon!
 
 ## Overview
 
