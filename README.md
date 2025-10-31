@@ -132,12 +132,14 @@ Results/
 If you use this framework in your research, please cite our work:
 
 ```bibtex
-@article{duarte2025copyright,
-  title={xxx},
-  author={yyy},
-  journal={xxx}, 
-  year={2025},
-  pages={XX-XX}
+ @misc{duarte2025recap,
+      title={RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline}, 
+      author={André V. Duarte and Xuying li and Bin Zeng and Arlindo L. Oliveira and Lei Li and Zhuo Li},
+      year={2025},
+      eprint={2510.25941},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.25941}, 
 }
 ```
 
